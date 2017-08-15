@@ -4,13 +4,18 @@ import { FormsModule} from '@angular/forms';
 import { HttpModule} from '@angular/http';
 import { AlertModule } from 'ng2-bootstrap';
 
+import { ImageService } from './image-details/shared/image.service';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ImageDetailComponent } from './image-details/image-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    GalleryComponent,
+    ImageDetailComponent
   ],
   imports: [
     BrowserModule,
@@ -18,7 +23,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     HttpModule,
     AlertModule.forRoot()
   ],
-  providers: [],
+  providers: [ImageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
