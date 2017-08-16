@@ -1,6 +1,6 @@
 # PhotoGallery
 
-[![Build Status](https://travis-ci.org/portfolio-SerhiiOvcharenko/photo-gallery.svg?branch=master)](https://travis-ci.org/portfolio-SerhiiOvcharenko/photo-gallery)  
+[![Build Status](https://travis-ci.org/slenderock/angular4_photo-gallery.svg?branch=master)](https://travis-ci.org/slenderock/angular4_photo-gallery)
 
 If you are going to collaborate or review this project, please check [instructions](https://github.com/portfolio-SerhiiOvcharenko/photo-gallery/wiki/Project-info)
 firstly  
